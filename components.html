@@ -315,157 +315,155 @@
       </div>
     </nav>
     <!-- Navigation Closed -->
-
-    <main
-      style="height: 3000px"
-      class="container-fluid content-box px-3 py-1 px-md-5 py-md-3"
-    >
-      <h1 class="title">Title</h1>
-      <h2 class="section-title">
-        Section Title <i class="bx bxs-megaphone section-title__icon"></i>
-      </h2>
-      <div class="input-group flex-column">
-        <label for="" class="input-label">Input label:</label>
-        <input type="text" class="input-style" />
-      </div>
-      <div class="input-group flex-column">
-        <label for="" class="input-label">Select input:</label>
-        <select name="" id="" class="input-style">
-          <option value="">Select Input</option>
-          <option value="">2</option>
-          <option value="">3</option>
-        </select>
-      </div>
-      <div class="input-group flex-column">
-        <label for="" class="input-label">Search input:</label>
+    <div class="content-box">
+      <main class="container-fluid px-3 py-1 px-md-5 py-md-3">
+        <h1 class="title">Title</h1>
+        <h2 class="section-title">
+          Section Title <i class="bx bxs-megaphone section-title__icon"></i>
+        </h2>
+        <div class="input-group flex-column">
+          <label for="" class="input-label">Input label:</label>
+          <input type="text" class="input-style" />
+        </div>
+        <div class="input-group flex-column">
+          <label for="" class="input-label">Select input:</label>
+          <select name="" id="" class="input-style">
+            <option value="">Select Input</option>
+            <option value="">2</option>
+            <option value="">3</option>
+          </select>
+        </div>
+        <div class="input-group flex-column">
+          <label for="" class="input-label">Search input:</label>
+          <div class="input-group">
+            <input
+              type="text"
+              class="search-input-style"
+              placeholder="Search..."
+              aria-label="Search Input"
+              aria-describedby="button-addon2"
+            />
+            <button class="search-input__btn" type="button" id="button-addon2">
+              <i class="bx bxs-search"></i>
+            </button>
+          </div>
+        </div>
         <div class="input-group">
-          <input
-            type="text"
-            class="search-input-style"
-            placeholder="Search..."
-            aria-label="Search Input"
-            aria-describedby="button-addon2"
-          />
-          <button class="search-input__btn" type="button" id="button-addon2">
-            <i class="bx bxs-search"></i>
-          </button>
+          <button class="button-style">Form Button</button>
         </div>
-      </div>
-      <div class="input-group">
-        <button class="button-style">Form Button</button>
-      </div>
-      <table>
-        <thead>
-          <tr>
-            <th class="table__head">Table Head</th>
-            <th class="table__head">Table Icon</th>
-            <th class="table__head">Table Min Icons</th>
-            <th class="table__head">Table Status</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <td class="table__data">Table Data</td>
-            <td class="">
-              <a href="" class="table__visualize-btn"
-                >Visualizar<i class="ps-1 bx bx-show"></i
-              ></a>
-            </td>
-            <td class="">
-              <a href="#" class="table__min-visualize-btn"
-                ><i class="bx bx-show"></i
-              ></a>
-              <a href="#" class="table__min-details-btn"
-                ><i class="bx bx-detail"></i
-              ></a>
-              <a href="#" class="table__min-edit-btn"
-                ><i class="bx bxs-edit"></i
-              ></a>
-            </td>
-            <td>
-              <span class="table__active">Ativo</span>
-              <span class="table__inactive">Inativo</span>
-            </td>
-          </tr>
-        </tbody>
-      </table>
-      <div class="my-4 d-flex flex-wrap">
-        <a class="purple-fill component shadow-sm_hover">
-          Chamados Abertos <span class="purple-fill_active ms-2">0</span>
-        </a>
-        <a class="purple-outline component shadow-sm_hover">
-          Chamados em Andamento
-          <span class="purple-outline_span ms-2">0</span>
-        </a>
-        <a class="purple-outline component shadow-sm_hover">
-          Chamados Fechados
-          <span class="purple-outline_span ms-2">0</span>
-        </a>
-        <a class="purple-fill component shadow-sm_hover">
-          Chamados Fechados
-          <i class="ms-2 bx bxs-plus-square component-icon"></i>
-        </a>
-        <a class="green-fill component shadow-sm_hover">
-          Exportar Unidades
-          <i class="ms-2 bx bxs-landmark component-icon"></i>
-        </a>
-        <a class="green-fill component shadow-sm_hover">
-          Exportar Produtos
-          <i class="ms-2 bx bxs-file-blank component-icon"></i>
-        </a>
-        <a class="blue-fill component shadow-sm_hover">
-          Cadastro Aviso
-          <i class="ms-2 bx bxs-megaphone component-icon"></i>
-        </a>
-        <a class="orange-fill component shadow-sm_hover">
-          Cadastrar Administrador
-          <i class="ms-2 bx bxs-user-badge component-icon"></i>
-        </a>
-        <a class="light-fill component shadow-sm_hover">
-          Pesquisa Avançada
-          <i class="ms-2 bx bxs-search-alt-2 component-icon"></i>
-        </a>
-        <a class="light-fill component shadow-sm_hover">
-          Desativar Usuários
-          <i class="ms-2 bx bxs-user-x component-icon"></i>
-        </a>
-        <a class="light-fill component shadow-sm_hover">
-          Filtrar
-          <i class="ms-2 bx bxs-filter-alt component-icon"></i>
-        </a>
-      </div>
-      <div class="my-4 d-flex flex-wrap">
-        <div class="purple-outline component">
-          <i class="bx bxs-landmark mx-1 component-icon"></i>
-          <span class="fw-semibold">109</span>
-          <p class="mx-1 m-0">Unidades</p>
+        <table>
+          <thead>
+            <tr>
+              <th class="table__head">Table Head</th>
+              <th class="table__head">Table Icon</th>
+              <th class="table__head">Table Min Icons</th>
+              <th class="table__head">Table Status</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td class="table__data">Table Data</td>
+              <td class="">
+                <a href="" class="table__visualize-btn"
+                  >Visualizar<i class="ps-1 bx bx-show"></i
+                ></a>
+              </td>
+              <td class="">
+                <a href="#" class="table__min-visualize-btn"
+                  ><i class="bx bx-show"></i
+                ></a>
+                <a href="#" class="table__min-details-btn"
+                  ><i class="bx bx-detail"></i
+                ></a>
+                <a href="#" class="table__min-edit-btn"
+                  ><i class="bx bxs-edit"></i
+                ></a>
+              </td>
+              <td>
+                <span class="table__active">Ativo</span>
+                <span class="table__inactive">Inativo</span>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+        <div class="my-4 d-flex flex-wrap">
+          <a class="purple-fill component shadow-sm_hover">
+            Chamados Abertos <span class="purple-fill_active ms-2">0</span>
+          </a>
+          <a class="purple-outline component shadow-sm_hover">
+            Chamados em Andamento
+            <span class="purple-outline_span ms-2">0</span>
+          </a>
+          <a class="purple-outline component shadow-sm_hover">
+            Chamados Fechados
+            <span class="purple-outline_span ms-2">0</span>
+          </a>
+          <a class="purple-fill component shadow-sm_hover">
+            Chamados Fechados
+            <i class="ms-2 bx bxs-plus-square component-icon"></i>
+          </a>
+          <a class="green-fill component shadow-sm_hover">
+            Exportar Unidades
+            <i class="ms-2 bx bxs-landmark component-icon"></i>
+          </a>
+          <a class="green-fill component shadow-sm_hover">
+            Exportar Produtos
+            <i class="ms-2 bx bxs-file-blank component-icon"></i>
+          </a>
+          <a class="blue-fill component shadow-sm_hover">
+            Cadastro Aviso
+            <i class="ms-2 bx bxs-megaphone component-icon"></i>
+          </a>
+          <a class="orange-fill component shadow-sm_hover">
+            Cadastrar Administrador
+            <i class="ms-2 bx bxs-user-badge component-icon"></i>
+          </a>
+          <a class="light-fill component shadow-sm_hover">
+            Pesquisa Avançada
+            <i class="ms-2 bx bxs-search-alt-2 component-icon"></i>
+          </a>
+          <a class="light-fill component shadow-sm_hover">
+            Desativar Usuários
+            <i class="ms-2 bx bxs-user-x component-icon"></i>
+          </a>
+          <a class="light-fill component shadow-sm_hover">
+            Filtrar
+            <i class="ms-2 bx bxs-filter-alt component-icon"></i>
+          </a>
         </div>
-        <div class="green-outline component">
-          <i class="bx bx-check mx-1 component-icon"></i>
-          <span class="fw-semibold">40</span>
-          <p class="mx-1 m-0">ativas</p>
+        <div class="my-4 d-flex flex-wrap">
+          <div class="purple-outline component">
+            <i class="bx bxs-landmark mx-1 component-icon"></i>
+            <span class="fw-semibold">109</span>
+            <p class="mx-1 m-0">Unidades</p>
+          </div>
+          <div class="green-outline component">
+            <i class="bx bx-check mx-1 component-icon"></i>
+            <span class="fw-semibold">40</span>
+            <p class="mx-1 m-0">ativas</p>
+          </div>
+          <div class="orange-outline component">
+            <i class="bx bxs-low-vision mx-1 component-icon"></i>
+            <span class="fw-semibold">12</span>
+            <p class="mx-1 m-0">Stand By</p>
+          </div>
+          <div class="red-outline component">
+            <i class="bx bxs-x-circle mx-1 component-icon"></i>
+            <span class="fw-semibold">57</span>
+            <p class="mx-1 m-0">Inativas</p>
+          </div>
         </div>
-        <div class="orange-outline component">
-          <i class="bx bxs-low-vision mx-1 component-icon"></i>
-          <span class="fw-semibold">12</span>
-          <p class="mx-1 m-0">Stand By</p>
-        </div>
-        <div class="red-outline component">
-          <i class="bx bxs-x-circle mx-1 component-icon"></i>
-          <span class="fw-semibold">57</span>
-          <p class="mx-1 m-0">Inativas</p>
-        </div>
-      </div>
-    </main>
+      </main>
 
-    <footer class="">
-      <hr />
-      <div class="d-flex justify-content-center align-items-center">
-        <p class="rights-text">
-          © 2023 You Bilingual Education. All Rights Reserved
-        </p>
-      </div>
-    </footer>
+      <footer class="">
+        <hr />
+        <div class="d-flex justify-content-center align-items-center">
+          <p class="rights-text">
+            © 2023 You Bilingual Education. All Rights Reserved
+          </p>
+        </div>
+      </footer>
+    </div>
 
     <!-- Scripts -->
     <!-- Bootstrap v5.2.3 JS -->

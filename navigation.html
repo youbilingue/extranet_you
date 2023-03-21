@@ -53,8 +53,8 @@
             <a
               class="text-decoration-none text-secondary fs-2"
               data-bs-toggle="offcanvas"
-              data-bs-target="#offcanvasNavbar"
-              aria-controls="offcanvasNavbar"
+              data-bs-target="#sidebar"
+              aria-controls="sidebar"
             >
               <i class="bx bx-menu"></i>
             </a>
@@ -62,8 +62,8 @@
           <div id="logoBox" class="d-none d-md-flex col-md-3">
             <a class="navbar-brand" href="#"
               ><img
-                src="src/assets/images/logo_you_preenchido_cor.svg"
-                class="w-75"
+                src="src/assets/images/logo_horizontal_degrade.svg"
+                class="w-50"
                 alt=""
             /></a>
           </div>
@@ -83,12 +83,13 @@
               alt="Profile Picture"
             />
           </div>
-          <div
-            class="col-1 p-0 d-flex justify-content-center align-items-center"
+          <a
+            href="login.html"
+            class="col-1 p-0 d-flex justify-content-center align-items-center text-decoration-none"
             id="logOutBox"
           >
             <i class="bx bx-log-out fs-5 log-out-navigation"></i>
-          </div>
+          </a>
         </div>
 
         <!-- Navigation Menu End -->
@@ -98,16 +99,19 @@
         <div
           class="sidebar offcanvas offcanvas-start"
           tabindex="-1"
-          id="offcanvasNavbar"
-          aria-labelledby="offcanvasNavbarLabel"
+          id="sidebar"
+          aria-labelledby="sidebarLabel"
         >
           <!-- Offcanvas Header -->
           <div
             class="offcanvas-header py-3 p-0 d-flex align-items-center justify-content-around"
           >
-            <a class="navbar-brand" href="#"
-              ><img src="src/assets/images/logo_you_preenchido.svg" alt=""
-            /></a>
+            <a class="navbar-brand" href="#">
+              <img
+                src="src/assets/images/logo_horizontal_branco.svg"
+                alt="You Bilingue"
+              />
+            </a>
             <a
               type="button"
               class=""
@@ -302,7 +306,9 @@
                   <p class="m-0 small">Analista de TI Jr.</p>
                 </div>
               </div>
-              <i class="bx bx-log-out log-out-sidebar"></i>
+              <a href="login.html" class="text-decoration-none"
+                ><i class="bx bx-log-out log-out-sidebar"></i
+              ></a>
             </div>
 
             <!-- Profile End -->
@@ -316,17 +322,18 @@
     </nav>
 
     <!-- Navigation Closed -->
+    <div class="content-box">
+      <main class=""">Teste</main>
 
-    <main class="content-box">Teste</main>
-
-    <footer>
-      <hr />
-      <div class="d-flex justify-content-center align-items-center">
-        <p class="rights-text">
-          © 2023 You Bilingual Education. All Rights Reserved
-        </p>
-      </div>
-    </footer>
+      <footer>
+        <hr />
+        <div class="d-flex justify-content-center align-items-center">
+          <p class="rights-text">
+            © 2023 You Bilingual Education. All Rights Reserved
+          </p>
+        </div>
+      </footer>
+    </div>
 
     <!-- Scripts -->
     <!-- Bootstrap v5.2.3 JS -->
