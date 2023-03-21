@@ -349,6 +349,7 @@
         <!-- OffCanvas /// Sidebar END -->
       </div>
     </nav>
+
     <!-- Navigation Closed -->
 
     <!-- Content -->
@@ -356,26 +357,156 @@
     <div class="content-box">
       <main class="container px-3 py-1 px-md-5 py-md-3">
         <h1 class="title mt-2 mb-4">
-          Newsletter <i class="bx bxs-book component-icon"></i>
+          Unidades <i class="bx bxs-landmark component-icon"></i>
         </h1>
 
-        <!-- Newsletter Table -->
+        <div class="row d-none d-md-flex">
+          <div class="col">
+            <div
+              class="my-4 d-flex flex-wrap justify-content-center align-items-center"
+            >
+              <a class="purple-fill component shadow-sm_hover mx-2 my-1">
+                Cadastrar Unidade
+                <i class="ms-2 bx bxs-plus-square component-icon"></i>
+              </a>
+              <a class="green-fill component shadow-sm_hover mx-2 my-1">
+                Exportar Unidades
+                <i class="ms-2 bx bxs-landmark component-icon"></i>
+              </a>
+              <a class="green-fill component shadow-sm_hover mx-2 my-1">
+                Exportar Produtos
+                <i class="ms-2 bx bxs-file-blank component-icon"></i>
+              </a>
+              <a class="blue-fill component shadow-sm_hover mx-2 my-1">
+                Cadastro Aviso
+                <i class="ms-2 bx bxs-megaphone component-icon mx-2 my-1"></i>
+              </a>
+              <a class="orange-fill component shadow-sm_hover mx-2 my-1">
+                Cadastrar Administrador
+                <i class="ms-2 bx bxs-user-badge component-icon"></i>
+              </a>
+              <a class="light-fill component shadow-sm_hover mx-2 my-1">
+                Pesquisa Avançada
+                <i class="ms-2 bx bxs-search-alt-2 component-icon"></i>
+              </a>
+              <a class="light-fill component shadow-sm_hover mx-2 my-1">
+                Desativar Usuários
+                <i class="ms-2 bx bxs-user-x component-icon"></i>
+              </a>
+              <a class="light-fill component shadow-sm_hover mx-2 my-1">
+                Filtrar
+                <i class="ms-2 bx bxs-filter-alt component-icon"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col">
+            <div
+              class="mb-5 my-md-4 d-md-flex justify-content-center align-items-center"
+            >
+              <div class="purple-outline component mx-2 my-2 my-md-4">
+                <i class="bx bxs-landmark mx-1 component-icon"></i>
+                <span class="fw-semibold">109</span>
+                <p class="mx-1 m-0">Unidades</p>
+              </div>
+              <div class="green-outline component mx-2 my-2 my-md-4">
+                <i class="bx bx-check mx-1 component-icon"></i>
+                <span class="fw-semibold">40</span>
+                <p class="mx-1 m-0">ativas</p>
+              </div>
+              <div class="orange-outline component mx-2 my-2 my-md-4">
+                <i class="bx bxs-low-vision mx-1 component-icon"></i>
+                <span class="fw-semibold">12</span>
+                <p class="mx-1 m-0 text-nowrap">Stand By</p>
+              </div>
+              <div class="red-outline component mx-2 my-2 my-md-4">
+                <i class="bx bxs-x-circle mx-1 component-icon"></i>
+                <span class="fw-semibold">57</span>
+                <p class="mx-1 m-0">Inativas</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Unidades Table -->
+
         <div class="table-responsive">
+          <div class="d-flex min-vw-100 align-items-center d-md-none">
+            <a class="shadow-sm_hover table__min-btn mx-2">
+              Pesquisar
+              <i class="ms-1 bx bxs-search-alt-2 component-icon"></i>
+            </a>
+            <a class="shadow-sm_hover table__min-btn mx-2">
+              Filtrar
+              <i class="ms-1 bx bxs-filter-alt component-icon"></i>
+            </a>
+            <a class="shadow-sm_hover table__min-btn mx-2 text-nowrap">
+              Desativar usuário
+              <i class="ms-1 bx bxs-user-x component-icon"></i>
+            </a>
+          </div>
           <table class="table table-hover">
             <thead>
               <tr>
-                <th scope="col" class="table__head px-2 px-md-5">Título</th>
-                <th scope="col" class="table__head px-2 px-md-5">Mês</th>
-                <th scope="col" class="table__head px-2 px-md-5">Ações</th>
+                <th scope="col" class="table__head px-2 px-md-5">Financeiro</th>
+                <th scope="col" class="table__head px-2 px-md-5">Unidade</th>
+                <th scope="col" class="table__head px-2 px-md-5">Cidade</th>
+                <th scope="col" class="table__head px-2 px-md-5">Status</th>
+                <th scope="col" class="table__head px-2 px-md-5">Opções</th>
               </tr>
             </thead>
             <tbody>
               <tr>
-                <td class="table__data px-2 px-md-5">Newsletter Março 2023</td>
-                <td class="table__data px-2 px-md-5">Março</td>
                 <td class="table__data px-2 px-md-5">
-                  <a href="#" class="table__min-visualize-btn"
+                  <input
+                    class="form-check-input"
+                    type="checkbox"
+                    value=""
+                    id="flexCheckDefault"
+                  />
+                </td>
+                <td class="table__data px-2 px-md-5">Arte de Aprender</td>
+                <td class="table__data px-2 px-md-5">Santos</td>
+                <td class="table__data text-center">
+                  <span class="table__active">Ativo</span>
+                </td>
+                <td class="d-flex d-md-block px-2 px-md-5 py-3 py-md-2">
+                  <a href="#" class="table__min-edit-btn mx-1"
+                    ><i class="bx bx-edit"></i
+                  ></a>
+                  <a href="#" class="table__min-visualize-btn mx-1"
                     ><i class="bx bx-show-alt"></i
+                  ></a>
+                  <a href="#" class="table__min-details-btn mx-1"
+                    ><i class="bx bx-detail"></i
+                  ></a>
+                </td>
+              </tr>
+              <tr>
+                <td class="table__data px-2 px-md-5">
+                  <input
+                    class="form-check-input"
+                    type="checkbox"
+                    value=""
+                    id="flexCheckDefault"
+                  />
+                </td>
+                <td class="table__data px-2 px-md-5">Arte de Aprender</td>
+                <td class="table__data px-2 px-md-5">Santos</td>
+                <td class="table__data text-center">
+                  <span class="table__inactive">Inativo</span>
+                </td>
+                <td class="d-flex d-md-block px-2 px-md-5 py-3 py-md-2">
+                  <a href="#" class="table__min-edit-btn mx-1"
+                    ><i class="bx bx-edit"></i
+                  ></a>
+                  <a href="#" class="table__min-visualize-btn mx-1"
+                    ><i class="bx bx-show-alt"></i
+                  ></a>
+                  <a href="#" class="table__min-details-btn mx-1"
+                    ><i class="bx bx-detail"></i
                   ></a>
                 </td>
               </tr>
@@ -383,7 +514,7 @@
           </table>
         </div>
 
-        <!-- Newsletter Table End -->
+        <!-- Unidades Table End -->
       </main>
       <footer class="text-center p-3">
         <hr />

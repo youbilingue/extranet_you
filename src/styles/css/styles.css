@@ -261,6 +261,25 @@
   color: #f9f9f9;
 }
 
+.table__min-btn {
+  align-items: center;
+  background-color: #dfdfdf;
+  border-radius: 10px;
+  display: flex;
+  font-weight: 500;
+  text-decoration: none;
+  padding: 0.5rem;
+  transition: all 0.3s ease;
+}
+.table__min-btn:active {
+  background-color: #356cb4;
+  color: #f9f9f9;
+}
+.table__min-btn:hover {
+  background-color: #356cb4;
+  color: #f9f9f9;
+}
+
 .table__active {
   background-color: #5cb85c;
   border-radius: 10px;

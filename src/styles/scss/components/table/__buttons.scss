@@ -65,6 +65,25 @@
   }
 }
 
+.table__min-btn {
+  align-items: center;
+  background-color: $light-gray;
+  border-radius: 10px;
+  display: flex;
+  font-weight: $fw-medium;
+  text-decoration: none;
+  padding: 0.5rem;
+  transition: all 0.3s ease;
+  &:active {
+    background-color: $you-blue;
+    color: $off-white;
+  }
+  &:hover {
+    background-color: $you-blue;
+    color: $off-white;
+  }
+}
+
 .table__active {
   background-color: $green;
   border-radius: 10px;
