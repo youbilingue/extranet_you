@@ -1,0 +1,46 @@
+.purple-outline {
+  border: 1px solid $purple;
+  color: $purple;
+  &:hover {
+    color: $off-white;
+    background-color: $purple;
+    .purple-outline_span {
+      background-color: $off-white;
+      color: $purple;
+    }
+  }
+  .purple-outline_span {
+    background-color: $purple;
+    color: $off-white;
+    padding: 0 0.5rem;
+    border-radius: 10px;
+    transition: all 0.3s ease;
+  }
+}
+
+.red-outline {
+  border: 1px solid $red;
+  color: $red;
+  &:hover {
+    color: $off-white;
+    background-color: $red;
+  }
+}
+
+.orange-outline {
+  border: 1px solid $orange;
+  color: $orange;
+  &:hover {
+    color: $off-white;
+    background-color: $orange;
+  }
+}
+
+.green-outline {
+  border: 1px solid $light-green;
+  color: $light-green;
+  &:hover {
+    color: $off-white;
+    background-color: $light-green;
+  }
+}

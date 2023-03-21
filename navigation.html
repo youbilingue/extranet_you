@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <!-- Charset UTF-8 -->
+    <meta charset="UTF-8" />
+
+    <!-- IE Compatibility -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+    <!-- Viewport Adaptability META Tag -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Favicon YOU -->
+    <link
+      rel="shortcut icon"
+      href="src/assets/images/favicon.svg"
+      type="image/x-icon"
+    />
+
+    <title>You Bilingue | Extranet</title>
+
+    <!-- Stylesheets -->
+    <!-- Boxicons v2.1.4 CSS -->
+    <link
+      rel="stylesheet"
+      href="src/assets/libraries/boxicons-2.1.4/css/boxicons.min.css"
+    />
+
+    <!-- Bootstrap v5.2.3 CSS -->
+    <link
+      rel="stylesheet"
+      href="src/assets/frameworks/bootstrap-5.2.3-dist/css/bootstrap.min.css"
+    />
+
+    <!-- Private Stylesheets -->
+    <link rel="stylesheet" href="src/styles/css/styles.css" />
+  </head>
+
+  <body class="container-fluid p-0 bg-white">
+    <!-- Navigation -->
+
+    <nav class="navbar shadow-sm fixed-top p-0 bg-white">
+      <div class="container-fluid">
+        <!-- Navigation Menu -->
+
+        <div
+          class="row py-2 w-100 justify-content-between justify-content-md-around"
+        >
+          <div
+            id="hamburgerBox"
+            class="col-2 col-md-1 d-flex justify-content-center align-items-center"
+          >
+            <a
+              class="text-decoration-none text-secondary fs-2"
+              data-bs-toggle="offcanvas"
+              data-bs-target="#offcanvasNavbar"
+              aria-controls="offcanvasNavbar"
+            >
+              <i class="bx bx-menu"></i>
+            </a>
+          </div>
+          <div id="logoBox" class="d-none d-md-flex col-md-3">
+            <a class="navbar-brand" href="#"
+              ><img
+                src="src/assets/images/logo_you_preenchido_cor.svg"
+                class="w-75"
+                alt=""
+            /></a>
+          </div>
+          <div
+            id="profileBox"
+            class="col-md-6 p-0 d-none d-md-flex justify-content-end align-items-center"
+          >
+            <div class="mx-3 text-end">
+              <p class="m-0 h6">Gustavo Mello</p>
+              <p class="m-0 small">Analista de TI Jr.</p>
+            </div>
+            <img
+              src="src/assets/images/profile_pic.jpg"
+              width="40"
+              height="40"
+              class="rounded-3 shadow-sm"
+              alt="Profile Picture"
+            />
+          </div>
+          <div
+            class="col-1 p-0 d-flex justify-content-center align-items-center"
+            id="logOutBox"
+          >
+            <i class="bx bx-log-out fs-5 log-out-navigation"></i>
+          </div>
+        </div>
+
+        <!-- Navigation Menu End -->
+
+        <!-- OffCanvas /// Sidebar -->
+
+        <div
+          class="sidebar offcanvas offcanvas-start"
+          tabindex="-1"
+          id="offcanvasNavbar"
+          aria-labelledby="offcanvasNavbarLabel"
+        >
+          <!-- Offcanvas Header -->
+          <div
+            class="offcanvas-header py-3 p-0 d-flex align-items-center justify-content-around"
+          >
+            <a class="navbar-brand" href="#"
+              ><img src="src/assets/images/logo_you_preenchido.svg" alt=""
+            /></a>
+            <a
+              type="button"
+              class=""
+              data-bs-dismiss="offcanvas"
+              aria-label="Close"
+            >
+              <i class="bx bx-x fs-2"></i>
+            </a>
+          </div>
+          <!-- Offcanvas Header End -->
+
+          <!-- Offcanvas Body -->
+
+          <div class="offcanvas-body py-2">
+            <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+              <li class="nav-item">
+                <a class="nav-link" href="#">
+                  <i class="px-1 bx bxs-home-heart"></i>
+                  Home
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">
+                  <i class="px-1 bx bxs-pencil"></i>
+                  Arquivos Pedagógicos
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">
+                  <i class="px-1 bx bxs-briefcase"></i>
+                  Arquivos Coordenação
+                </a>
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle collapsed"
+                  href="#"
+                  role="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#financeiroCollapse"
+                  aria-expanded="false"
+                >
+                  <i class="px-1 bx bxs-badge-dollar"></i>
+                  Financeiro
+                </a>
+                <div class="collapse" id="financeiroCollapse">
+                  <ul class="btn-toggle-nav list-unstyled fw-normal ps-3 small">
+                    <li><a href="#" class="rounded">Link 1</a></li>
+                    <li><a href="#" class="rounded">Link 2</a></li>
+                    <li><a href="#" class="rounded">Link 3</a></li>
+                  </ul>
+                </div>
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle collapsed"
+                  href="#"
+                  role="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#consultoriaCollapse"
+                  aria-expanded="false"
+                >
+                  <i class="px-1 bx bxs-comment-detail"></i>
+                  Consultoria YOU
+                </a>
+                <div class="collapse" id="consultoriaCollapse">
+                  <ul class="btn-toggle-nav list-unstyled fw-normal ps-3 small">
+                    <li><a href="#" class="rounded">Link 1</a></li>
+                    <li><a href="#" class="rounded">Link 2</a></li>
+                    <li><a href="#" class="rounded">Link 3</a></li>
+                  </ul>
+                </div>
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle collapsed"
+                  href="#"
+                  role="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#marketingCollapse"
+                  aria-expanded="false"
+                >
+                  <i class="px-1 bx bxs-bar-chart-alt-2"></i>
+                  Marketing
+                </a>
+                <div class="collapse" id="marketingCollapse">
+                  <ul class="btn-toggle-nav list-unstyled fw-normal ps-3 small">
+                    <li><a href="#" class="rounded">Link 1</a></li>
+                    <li><a href="#" class="rounded">Link 2</a></li>
+                    <li><a href="#" class="rounded">Link 3</a></li>
+                  </ul>
+                </div>
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle collapsed"
+                  href="#"
+                  role="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#cambridgeCollapse"
+                  aria-expanded="false"
+                >
+                  <i class="px-1 bx bxs-school"></i>
+                  Cambridge
+                </a>
+                <div class="collapse" id="cambridgeCollapse">
+                  <ul class="btn-toggle-nav list-unstyled fw-normal ps-3 small">
+                    <li><a href="#" class="rounded">Link 1</a></li>
+                    <li><a href="#" class="rounded">Link 2</a></li>
+                    <li><a href="#" class="rounded">Link 3</a></li>
+                  </ul>
+                </div>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">
+                  <i class="px-1 bx bxs-megaphone"></i>
+                  Fale Conosco
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">
+                  <i class="px-1 bx bxs-user-pin"></i>
+                  Candidato
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">
+                  <i class="px-1 bx bxs-receipt"></i>
+                  Avaliação
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">
+                  <i class="px-1 bx bxs-landmark"></i>
+                  Unidades
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">
+                  <i class="px-1 bx bxs-conversation"></i>
+                  Comunicados
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">
+                  <i class="px-1 bx bxs-basket"></i>
+                  Loja Online
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">
+                  <i class="px-1 bx bxs-book"></i>
+                  Newsletter
+                </a>
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle collapsed"
+                  href="#"
+                  role="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#configsCollapse"
+                  aria-expanded="false"
+                >
+                  <i class="px-1 bx bxs-cog"></i>
+                  Configurações
+                </a>
+                <div class="collapse" id="configsCollapse">
+                  <ul class="btn-toggle-nav list-unstyled fw-normal ps-3 small">
+                    <li><a href="#" class="rounded">Link 1</a></li>
+                    <li><a href="#" class="rounded">Link 2</a></li>
+                    <li><a href="#" class="rounded">Link 3</a></li>
+                  </ul>
+                </div>
+              </li>
+            </ul>
+
+            <!-- Profile -->
+            <hr class="my-2" />
+
+            <div class="offcanvas-header p-2">
+              <div class="d-flex align-items-center">
+                <img
+                  src="src/assets/images/profile_pic.jpg"
+                  width="40"
+                  height="40"
+                  class="rounded-3 shadow-sm me-2"
+                  alt="Profile Picture"
+                />
+                <div class="">
+                  <p class="m-0 h6">Gustavo Mello</p>
+                  <p class="m-0 small">Analista de TI Jr.</p>
+                </div>
+              </div>
+              <i class="bx bx-log-out log-out-sidebar"></i>
+            </div>
+
+            <!-- Profile End -->
+          </div>
+
+          <!-- Offcanvas Body End -->
+        </div>
+
+        <!-- OffCanvas /// Sidebar END -->
+      </div>
+    </nav>
+
+    <!-- Navigation Closed -->
+
+    <main class="content-box">Teste</main>
+
+    <footer>
+      <hr />
+      <div class="d-flex justify-content-center align-items-center">
+        <p class="rights-text">
+          © 2023 You Bilingual Education. All Rights Reserved
+        </p>
+      </div>
+    </footer>
+
+    <!-- Scripts -->
+    <!-- Bootstrap v5.2.3 JS -->
+    <script src="src/assets/frameworks/bootstrap-5.2.3-dist/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Private JS Scripts -->
+    <script src="src/scripts/js/app.js"></script>
+  </body>
+</html>

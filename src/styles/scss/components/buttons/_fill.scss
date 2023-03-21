@@ -1,0 +1,46 @@
+.purple-fill {
+  background-color: $purple;
+  color: $off-white;
+  &:hover {
+    color: $off-white;
+  }
+  .purple-fill_active {
+    background-color: $off-white;
+    color: $purple;
+    padding: 0 0.5rem;
+    border-radius: 10px;
+    transition: all 0.3s ease;
+  }
+}
+
+.green-fill {
+  background-color: $light-green;
+  color: $off-white;
+  &:hover {
+    color: $off-white;
+  }
+}
+
+.blue-fill {
+  background-color: $blue;
+  color: $off-white;
+  &:hover {
+    color: $off-white;
+  }
+}
+
+.orange-fill {
+  background-color: $orange;
+  color: $off-white;
+  &:hover {
+    color: $off-white;
+  }
+}
+
+.light-fill {
+  background-color: $light-gray;
+  color: $dark-blue;
+  &:hover {
+    color: $darker-blue;
+  }
+}

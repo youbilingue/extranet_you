@@ -1,0 +1,52 @@
+.input-label {
+  color: $dark-gray;
+  font-family: $poppins;
+  font-size: $fs-20;
+}
+
+.input-style {
+  background: $input-color;
+  color: $dark-gray;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 10px !important;
+  font-family: $montserrat;
+  padding: 0.5rem 1rem;
+  &:focus {
+    outline: 1px solid rgba(0, 0, 0, 0.1);
+  }
+}
+
+.search-input-style {
+  background: $input-color;
+  color: $dark-gray;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 10px 0px 0px 10px !important;
+  font-family: $montserrat;
+  padding: 0.5rem 1rem;
+  &:focus {
+    outline: 1px solid rgba(0, 0, 0, 0.1);
+  }
+}
+
+.search-input__btn {
+  display: flex;
+  align-items: center;
+  background: $input-color;
+  color: $dark-blue;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 0px 10px 10px 0px !important;
+  font-family: $montserrat;
+  padding: 0.5rem 1rem;
+  transition: all 0.3s ease;
+  &:focus {
+    background: $darker-blue;
+    color: $off-white;
+    outline: 1px solid rgba(0, 0, 0, 0.1);
+    &:hover {
+      color: $off-white;
+    }
+  }
+  &:hover {
+    color: $darker-blue;
+  }
+}

@@ -1,0 +1,22 @@
+.cta-image {
+  background: linear-gradient(151.7deg, #d3d722 -6.63%, #ba0065 108.22%);
+  .cta__logo-box {
+    background-color: $off-white;
+    height: fit-content;
+    width: fit-content;
+    padding: 1rem 3rem 2.5rem 1rem;
+    border-radius: 0px 0px 150px 00px;
+  }
+  .cta-image__title {
+    font-weight: $fw-regular;
+    color: $off-white;
+    font-family: $poppins;
+    font-size: $fs-60;
+  }
+  .cta-image__subtitle {
+    font-weight: $fw-regular;
+    color: $off-white;
+    font-family: $poppins;
+    font-size: $fs-20;
+  }
+}

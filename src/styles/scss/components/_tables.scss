@@ -1,0 +1,15 @@
+@import "./table/_buttons";
+
+.table__head {
+  font-family: $poppins;
+  font-size: $fs-18;
+  font-weight: $fw-semibold;
+  color: $dark-blue;
+}
+
+.table__data {
+  font-family: $poppins;
+  font-size: $fs-16;
+  font-weight: $fw-regular;
+  color: $dark-gray;
+}
