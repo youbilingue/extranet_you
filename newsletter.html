@@ -327,150 +327,35 @@
 
     <div class="content-box">
       <main class="container px-3 py-1 px-md-5 py-md-3">
-        <h1 class="title mt-2 mb-4">Bom dia, Gustavo Mello!</h1>
+        <h1 class="title mt-2 mb-4">
+          Newsletter <i class="bx bxs-book component-icon"></i>
+        </h1>
 
-        <!-- Carousel -->
-
-        <div id="carouselYouBilingue" class="carousel slide">
-          <div class="carousel-indicators">
-            <button
-              type="button"
-              data-bs-target="#carouselYouBilingue"
-              data-bs-slide-to="0"
-              class="active"
-              aria-current="true"
-              aria-label="Slide 1"
-            ></button>
-            <button
-              type="button"
-              data-bs-target="#carouselYouBilingue"
-              data-bs-slide-to="1"
-              aria-label="Slide 2"
-            ></button>
-            <button
-              type="button"
-              data-bs-target="#carouselYouBilingue"
-              data-bs-slide-to="2"
-              aria-label="Slide 3"
-            ></button>
-          </div>
-          <div class="carousel-inner">
-            <div class="carousel-item active">
-              <img
-                src="src/assets/images/carousel/pic_1.jpg"
-                class="d-block w-100"
-                alt="Kids 1"
-              />
-              <div class="carousel-caption d-none d-md-block">
-                <h5>First slide label</h5>
-                <p>
-                  Some representative placeholder content for the first slide.
-                </p>
-              </div>
-            </div>
-            <div class="carousel-item">
-              <img
-                src="src/assets/images/carousel/pic_2.jpg"
-                class="d-block w-100"
-                alt="Kids 2"
-              />
-              <div class="carousel-caption d-none d-md-block">
-                <h5>Second slide label</h5>
-                <p>
-                  Some representative placeholder content for the second slide.
-                </p>
-              </div>
-            </div>
-            <div class="carousel-item">
-              <img
-                src="src/assets/images/carousel/pic_3.jpg"
-                class="d-block w-100"
-                alt="Kids 3"
-              />
-              <div class="carousel-caption d-none d-md-block">
-                <h5>Third slide label</h5>
-                <p>
-                  Some representative placeholder content for the third slide.
-                </p>
-              </div>
-            </div>
-          </div>
-          <button
-            class="carousel-control-prev"
-            type="button"
-            data-bs-target="#carouselYouBilingue"
-            data-bs-slide="prev"
-          >
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Previous</span>
-          </button>
-          <button
-            class="carousel-control-next"
-            type="button"
-            data-bs-target="#carouselYouBilingue"
-            data-bs-slide="next"
-          >
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Next</span>
-          </button>
+        <!-- Newsletter Table -->
+        <div class="table-responsive">
+          <table class="table table-hover">
+            <thead>
+              <tr>
+                <th scope="col" class="table__head px-2 px-md-5">Título</th>
+                <th scope="col" class="table__head px-2 px-md-5">Mês</th>
+                <th scope="col" class="table__head px-2 px-md-5">Ações</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td class="table__data px-2 px-md-5">Newsletter Março 2023</td>
+                <td class="table__data px-2 px-md-5">Março</td>
+                <td class="table__data px-2 px-md-5">
+                  <a href="#" class="table__min-visualize-btn"
+                    ><i class="bx bx-show-alt"></i
+                  ></a>
+                </td>
+              </tr>
+            </tbody>
+          </table>
         </div>
 
-        <!-- Carousel End -->
-
-        <hr class="d-none d-md-block mt-md-4" />
-
-        <h2 class="section-title mt-4">
-          Fale Conosco <i class="bx bxs-megaphone component-icon ms-2"></i>
-        </h2>
-
-        <form action="" method="post">
-          <div class="row">
-            <div class="col-md-6">
-              <div class="input-group flex-column my-2 my-md-4">
-                <label for="solicitante" class="input-label"
-                  >Solicitante:</label
-                >
-                <input type="text" id="solicitante" class="input-style" />
-              </div>
-              <div class="input-group flex-column my-2 my-md-4">
-                <label for="titulo" class="input-label">Título:</label>
-                <input type="text" id="titulo" class="input-style" />
-              </div>
-            </div>
-            <div class="col-md-6">
-              <div class="input-group flex-column my-2 my-md-4">
-                <label for="setor" class="input-label">Setor:</label>
-                <select name="setor" id="setor" class="input-style">
-                  <option value="" disabled selected>Selecione o Setor</option>
-                  <option value="">Pedagógico</option>
-                  <option value="">Tecnologia</option>
-                </select>
-              </div>
-              <div class="input-group flex-column my-2 my-md-4">
-                <label for="faleConoscoFile" class="input-label"
-                  >Arquivo:</label
-                >
-                <div class="input-group py-1">
-                  <input
-                    type="file"
-                    class="form-control"
-                    id="faleConoscoFile"
-                  />
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="input-group flex-column">
-            <label for="mensagem" class="input-label">Mensagem:</label>
-            <textarea id="mensagem" class="input-style"></textarea>
-          </div>
-          <button
-            type="submit"
-            class="my-4 button-style d-flex align-items-center"
-          >
-            Cadastrar Chamado <i class="bx bxs-paper-plane ms-1"></i>
-          </button>
-        </form>
+        <!-- Newsletter Table End -->
       </main>
       <footer class="text-center p-3">
         <hr />
