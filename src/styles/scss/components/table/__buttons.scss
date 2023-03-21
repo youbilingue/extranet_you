@@ -1,9 +1,9 @@
 .table__visualize-btn {
   display: flex;
   align-items: center;
-  background-color: $light-yellow;
+  background-color: $you-yellowish;
   border-radius: 10px;
-  color: $darker-blue;
+  color: $you-blue;
   font-family: $poppins;
   font-size: $fs-16;
   font-weight: $fw-semibold;
@@ -11,14 +11,13 @@
   padding: 0.3rem 1rem;
   transition: all 0.3s ease;
   &:hover {
-    background-color: $dark-blue;
+    background-color: $dark-yellow;
     box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
-    color: $off-white;
   }
 }
 
 .table__min-visualize-btn {
-  background-color: $dark-blue;
+  background-color: $you-blue;
   border-radius: 10px;
   color: $off-white;
   font-size: $fs-16;
@@ -27,30 +26,30 @@
   padding: 0.3rem 0.5rem;
   transition: all 0.3s ease;
   &:hover {
-    background-color: $darker-blue;
+    background-color: $you-blue;
     box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
     color: $off-white;
   }
 }
 
 .table__min-details-btn {
-  background-color: $light-yellow;
+  background-color: $you-yellowish;
   border-radius: 10px;
-  color: $dark-blue;
+  color: $you-blue;
   font-size: $fs-16;
   font-family: $poppins;
   font-weight: $fw-semibold;
   padding: 0.3rem 0.5rem;
   transition: all 0.3s ease;
   &:hover {
-    background-color: $orange;
+    background-color: $dark-yellow;
     box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
-    color: $dark-blue;
+    color: $you-blue;
   }
 }
 
 .table__min-edit-btn {
-  background-color: $purple;
+  background-color: $you-purple;
   border-radius: 10px;
   color: $off-white;
   font-size: $fs-16;
@@ -66,7 +65,7 @@
 }
 
 .table__active {
-  background-color: $light-green;
+  background-color: $green;
   border-radius: 10px;
   color: $off-white;
   font-family: $poppins;

@@ -2,7 +2,7 @@
 @import "./buttons/outlines";
 
 .button-style {
-  background-color: $dark-blue;
+  background-color: $you-blue;
   border: none;
   border-radius: 0.5rem;
   color: $light-gray;
@@ -11,7 +11,7 @@
   padding: 0.5rem 1rem;
   transition: all 0.3s ease;
   &:hover {
-    background-color: $orange;
+    background-color: $you-orange;
     box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
     color: $off-white;
     font-weight: $fw-bold;
@@ -37,7 +37,7 @@
 
 .return-btn {
   align-items: center;
-  color: $dark-blue;
+  color: $you-blue;
   display: flex;
   padding: 1rem;
   text-decoration: none;

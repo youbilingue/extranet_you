@@ -1,10 +1,10 @@
 .log-out-navigation {
   border-radius: 10px;
-  color: $dark-blue;
+  color: $you-blue;
   transition: all 0.3s ease;
   cursor: pointer;
   &:hover {
-    background-color: $dark-blue;
+    background-color: $you-blue;
     color: $off-white;
     padding: 0.5rem;
   }
@@ -17,22 +17,22 @@
   cursor: pointer;
   &:hover {
     background-color: $off-white;
-    color: $dark-blue;
+    color: $you-blue;
     padding: 0.5rem;
   }
 }
 
 .sidebar {
-  background: $sidebar-color;
+  background: $you-purple;
   color: $off-white;
   font-family: $poppins;
   a {
     color: $off-white;
     &:hover {
-      color: $light-yellow;
+      color: $you-yellowish;
     }
     &:focus {
-      color: $light-yellow;
+      color: $you-yellowish;
     }
   }
 }

@@ -2,12 +2,12 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 .log-out-navigation {
   border-radius: 10px;
-  color: #5c3f7f;
+  color: #356cb4;
   transition: all 0.3s ease;
   cursor: pointer;
 }
 .log-out-navigation:hover {
-  background-color: #5c3f7f;
+  background-color: #356cb4;
   color: #f9f9f9;
   padding: 0.5rem;
 }
@@ -20,12 +20,12 @@
 }
 .log-out-sidebar:hover {
   background-color: #f9f9f9;
-  color: #5c3f7f;
+  color: #356cb4;
   padding: 0.5rem;
 }
 
 .sidebar {
-  background: #5c3f7f;
+  background: #7c348b;
   color: #f9f9f9;
   font-family: "Poppins", sans-serif;
 }
@@ -33,10 +33,10 @@
   color: #f9f9f9;
 }
 .sidebar a:hover {
-  color: #d3d722;
+  color: #e6e123;
 }
 .sidebar a:focus {
-  color: #d3d722;
+  color: #e6e123;
 }
 
 ::-webkit-scrollbar {
@@ -47,7 +47,7 @@
 
 ::-webkit-scrollbar-thumb {
   border-radius: 0.5rem;
-  background: #d3d722;
+  background: #e6e123;
 }
 
 ::-webkit-scrollbar-track {
@@ -56,7 +56,7 @@
 }
 
 .purple-fill {
-  background-color: #ba0065;
+  background-color: #7c348b;
   color: #f9f9f9;
 }
 .purple-fill:hover {
@@ -64,7 +64,7 @@
 }
 .purple-fill .purple-fill_active {
   background-color: #f9f9f9;
-  color: #ba0065;
+  color: #7c348b;
   padding: 0 0.5rem;
   border-radius: 10px;
   transition: all 0.3s ease;
@@ -79,7 +79,7 @@
 }
 
 .blue-fill {
-  background-color: #337ab7;
+  background-color: #356cb4;
   color: #f9f9f9;
 }
 .blue-fill:hover {
@@ -87,7 +87,7 @@
 }
 
 .orange-fill {
-  background-color: #df9f01;
+  background-color: #f59d08;
   color: #f9f9f9;
 }
 .orange-fill:hover {
@@ -96,26 +96,26 @@
 
 .light-fill {
   background-color: #dfdfdf;
-  color: #5c3f7f;
+  color: #356cb4;
 }
 .light-fill:hover {
-  color: #493066;
+  color: #356cb4;
 }
 
 .purple-outline {
-  border: 1px solid #ba0065;
-  color: #ba0065;
+  border: 1px solid #7c348b;
+  color: #7c348b;
 }
 .purple-outline:hover {
   color: #f9f9f9;
-  background-color: #ba0065;
+  background-color: #7c348b;
 }
 .purple-outline:hover .purple-outline_span {
   background-color: #f9f9f9;
-  color: #ba0065;
+  color: #7c348b;
 }
 .purple-outline .purple-outline_span {
-  background-color: #ba0065;
+  background-color: #7c348b;
   color: #f9f9f9;
   padding: 0 0.5rem;
   border-radius: 10px;
@@ -132,12 +132,12 @@
 }
 
 .orange-outline {
-  border: 1px solid #df9f01;
-  color: #df9f01;
+  border: 1px solid #f59d08;
+  color: #f59d08;
 }
 .orange-outline:hover {
   color: #f9f9f9;
-  background-color: #df9f01;
+  background-color: #f59d08;
 }
 
 .green-outline {
@@ -150,7 +150,7 @@
 }
 
 .button-style {
-  background-color: #5c3f7f;
+  background-color: #356cb4;
   border: none;
   border-radius: 0.5rem;
   color: #dfdfdf;
@@ -160,7 +160,7 @@
   transition: all 0.3s ease;
 }
 .button-style:hover {
-  background-color: #df9f01;
+  background-color: #f59d08;
   box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
   color: #f9f9f9;
   font-weight: 700;
@@ -185,7 +185,7 @@
 
 .return-btn {
   align-items: center;
-  color: #5c3f7f;
+  color: #356cb4;
   display: flex;
   padding: 1rem;
   text-decoration: none;
@@ -197,9 +197,9 @@
 .table__visualize-btn {
   display: flex;
   align-items: center;
-  background-color: #d3d722;
+  background-color: #e6e123;
   border-radius: 10px;
-  color: #493066;
+  color: #356cb4;
   font-family: "Poppins", sans-serif;
   font-size: 1rem;
   font-weight: 600;
@@ -208,13 +208,12 @@
   transition: all 0.3s ease;
 }
 .table__visualize-btn:hover {
-  background-color: #5c3f7f;
+  background-color: #d6d01f;
   box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
-  color: #f9f9f9;
 }
 
 .table__min-visualize-btn {
-  background-color: #5c3f7f;
+  background-color: #356cb4;
   border-radius: 10px;
   color: #f9f9f9;
   font-size: 1rem;
@@ -224,15 +223,15 @@
   transition: all 0.3s ease;
 }
 .table__min-visualize-btn:hover {
-  background-color: #493066;
+  background-color: #356cb4;
   box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
   color: #f9f9f9;
 }
 
 .table__min-details-btn {
-  background-color: #d3d722;
+  background-color: #e6e123;
   border-radius: 10px;
-  color: #5c3f7f;
+  color: #356cb4;
   font-size: 1rem;
   font-family: "Poppins", sans-serif;
   font-weight: 600;
@@ -240,13 +239,13 @@
   transition: all 0.3s ease;
 }
 .table__min-details-btn:hover {
-  background-color: #df9f01;
+  background-color: #d6d01f;
   box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
-  color: #5c3f7f;
+  color: #356cb4;
 }
 
 .table__min-edit-btn {
-  background-color: #ba0065;
+  background-color: #7c348b;
   border-radius: 10px;
   color: #f9f9f9;
   font-size: 1rem;
@@ -256,7 +255,7 @@
   transition: all 0.3s ease;
 }
 .table__min-edit-btn:hover {
-  background-color: #910050;
+  background-color: #672774;
   box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
   color: #f9f9f9;
 }
@@ -281,7 +280,7 @@
   font-family: "Poppins", sans-serif;
   font-size: 1.125rem;
   font-weight: 600;
-  color: #5c3f7f;
+  color: #356cb4;
 }
 
 .table__data {
@@ -325,7 +324,7 @@
   display: flex;
   align-items: center;
   background: #ececec;
-  color: #5c3f7f;
+  color: #356cb4;
   border: 1px solid rgba(0, 0, 0, 0.1);
   border-radius: 0px 10px 10px 0px !important;
   font-family: "Montserrat", sans-serif;
@@ -333,7 +332,7 @@
   transition: all 0.3s ease;
 }
 .search-input__btn:focus {
-  background: #493066;
+  background: #356cb4;
   color: #f9f9f9;
   outline: 1px solid rgba(0, 0, 0, 0.1);
 }
@@ -341,18 +340,18 @@
   color: #f9f9f9;
 }
 .search-input__btn:hover {
-  color: #493066;
+  color: #356cb4;
 }
 
 .title {
-  color: #5c3f7f;
+  color: #356cb4;
   font-family: "Poppins", sans-serif;
   font-size: 1.875rem;
   font-weight: 600;
 }
 
 .subtitle {
-  color: #5c3f7f;
+  color: #356cb4;
   font-family: "Poppins", sans-serif;
   font-size: 1rem;
   font-weight: 600;
@@ -361,14 +360,14 @@
 .section-title {
   display: flex;
   align-items: center;
-  color: #5c3f7f;
+  color: #356cb4;
   font-family: "Poppins", sans-serif;
   font-size: 1.5rem;
   font-weight: 600;
 }
 
 .section-title__icon {
-  color: #5c3f7f;
+  color: #356cb4;
   font-family: "Poppins", sans-serif;
   font-size: 1.25rem;
   font-weight: 600;

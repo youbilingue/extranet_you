@@ -1,16 +1,16 @@
 .purple-outline {
-  border: 1px solid $purple;
-  color: $purple;
+  border: 1px solid $you-purple;
+  color: $you-purple;
   &:hover {
     color: $off-white;
-    background-color: $purple;
+    background-color: $you-purple;
     .purple-outline_span {
       background-color: $off-white;
-      color: $purple;
+      color: $you-purple;
     }
   }
   .purple-outline_span {
-    background-color: $purple;
+    background-color: $you-purple;
     color: $off-white;
     padding: 0 0.5rem;
     border-radius: 10px;
@@ -28,19 +28,19 @@
 }
 
 .orange-outline {
-  border: 1px solid $orange;
-  color: $orange;
+  border: 1px solid $you-orange;
+  color: $you-orange;
   &:hover {
     color: $off-white;
-    background-color: $orange;
+    background-color: $you-orange;
   }
 }
 
 .green-outline {
-  border: 1px solid $light-green;
-  color: $light-green;
+  border: 1px solid $green;
+  color: $green;
   &:hover {
     color: $off-white;
-    background-color: $light-green;
+    background-color: $green;
   }
 }
