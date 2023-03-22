@@ -452,23 +452,60 @@
     <div class="content-box">
       <main class="container px-3 py-1 px-md-5 py-md-3">
         <h1 class="title mt-2 mb-4">
-          Newsletter <i class="bx bxs-book component-icon"></i>
+          Candidatos <i class="bx bxs-user-pin component-icon"></i>
         </h1>
+
+        <div class="row">
+          <div class="col d-none d-md-flex justify-content-between my-4">
+            <a
+              class="purple-fill py-2 component shadow-sm_hover mx-2 my-1 text-nowrap"
+            >
+              Cadastrar Candidato
+              <i class="ms-2 bx bxs-plus-square component-icon"></i>
+            </a>
+            <div class="input-group justify-content-end">
+              <input
+                type="text"
+                class="search-input-style"
+                placeholder="Search..."
+                aria-label="Search Input"
+                aria-describedby="button-addon2"
+              />
+              <button
+                class="search-input__btn"
+                type="button"
+                id="button-addon2"
+              >
+                <i class="bx bxs-search"></i>
+              </button>
+            </div>
+          </div>
+        </div>
 
         <!-- Newsletter Table -->
         <div class="table-responsive">
+          <div class="d-flex min-vw-100 align-items-center d-md-none">
+            <a class="shadow-sm_hover table__min-btn mx-2">
+              Pesquisar
+              <i class="ms-1 bx bxs-search-alt-2 component-icon"></i>
+            </a>
+            <a class="shadow-sm_hover table__min-btn mx-2">
+              Cadastrar Candidato
+              <i class="ms-1 bx bxs-plus-square component-icon"></i>
+            </a>
+          </div>
           <table class="table table-hover">
             <thead>
               <tr>
-                <th scope="col" class="table__head px-2 px-md-5">Título</th>
-                <th scope="col" class="table__head px-2 px-md-5">Mês</th>
+                <th scope="col" class="table__head px-2 px-md-5">Nome</th>
+                <th scope="col" class="table__head px-2 px-md-5">Situação</th>
                 <th scope="col" class="table__head px-2 px-md-5">Ações</th>
               </tr>
             </thead>
             <tbody>
               <tr>
-                <td class="table__data px-2 px-md-5">Newsletter Março 2023</td>
-                <td class="table__data px-2 px-md-5">Março</td>
+                <td class="table__data px-2 px-md-5">Canidato Nome</td>
+                <td class="table__data px-2 px-md-5">Acima B2</td>
                 <td class="table__data px-2 px-md-5">
                   <a href="#" class="table__min-visualize-btn"
                     ><i class="bx bx-show-alt"></i
