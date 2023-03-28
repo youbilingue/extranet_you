@@ -325,6 +325,7 @@
   border: 1px solid rgba(0, 0, 0, 0.1);
   border-radius: 10px !important;
   font-family: "Montserrat", sans-serif;
+  font-size: 0.875rem;
   padding: 0.5rem 1rem;
 }
 .input-style:focus {
@@ -337,6 +338,7 @@
   border: 1px solid rgba(0, 0, 0, 0.1);
   border-radius: 10px 0px 0px 10px !important;
   font-family: "Montserrat", sans-serif;
+  font-size: 0.875rem;
   padding: 0.5rem 1rem;
 }
 .search-input-style:focus {
