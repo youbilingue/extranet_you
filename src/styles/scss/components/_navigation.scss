@@ -23,16 +23,16 @@
 }
 
 .sidebar {
-  background: $you-purple;
+  background: $sidebar-color;
   color: $off-white;
   font-family: $poppins;
   a {
     color: $off-white;
     &:hover {
-      color: $you-yellowish;
+      color: $you-orange;
     }
     &:focus {
-      color: $you-yellowish;
+      color: $you-orange;
     }
   }
   .subitem {
