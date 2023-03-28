@@ -1,0 +1,9 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<oracle.dbtools.crest.model.design.relational.RelationalDesign>
+   <object objectType="Table" objectID="BFC2C9FB-D781-1AA6-A6D2-CBD6337EAE3D" name="pedidos" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.relational.Table" propertyParentId="9912CDE2-36D5-0EE4-E694-D66BC8B52FC5" propertySourceId="" propertyTargetId=""/>
+   <object objectType="Table" objectID="3CE7C187-112B-C603-619F-ABD2FC494E27" name="produto" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.relational.Table" propertyParentId="9912CDE2-36D5-0EE4-E694-D66BC8B52FC5" propertySourceId="" propertyTargetId=""/>
+   <object objectType="Table" objectID="A80B00F6-B779-7C33-C1DA-09B1A69818CC" name="programa" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.relational.Table" propertyParentId="9912CDE2-36D5-0EE4-E694-D66BC8B52FC5" propertySourceId="" propertyTargetId=""/>
+   <object objectType="Table" objectID="76B3AE3E-22AA-641E-A327-D6C4D1F6A0A3" name="responsavel" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.relational.Table" propertyParentId="9912CDE2-36D5-0EE4-E694-D66BC8B52FC5" propertySourceId="" propertyTargetId=""/>
+   <object objectType="Table" objectID="9A9B1857-35C9-A90B-452A-D0B0F3568C71" name="unidade" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.relational.Table" propertyParentId="9912CDE2-36D5-0EE4-E694-D66BC8B52FC5" propertySourceId="" propertyTargetId=""/>
+   <object objectType="Table" objectID="4F2C9102-D8A9-1187-FFC8-F69C43C7B51C" name="usuario" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.relational.Table" propertyParentId="9912CDE2-36D5-0EE4-E694-D66BC8B52FC5" propertySourceId="" propertyTargetId=""/>
+</oracle.dbtools.crest.model.design.relational.RelationalDesign>
