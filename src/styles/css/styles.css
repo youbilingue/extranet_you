@@ -179,7 +179,7 @@
   justify-content: center;
   text-decoration: none;
   transition: all 0.3s ease;
-  padding: 1rem;
+  padding: 0.5rem;
 }
 
 .component-icon {
@@ -284,18 +284,16 @@
 }
 
 .table__active {
-  background-color: #5cb85c;
-  border-radius: 10px;
-  color: #f9f9f9;
+  color: #5cb85c;
   font-family: "Poppins", sans-serif;
+  font-weight: 600;
   padding: 0.4rem;
 }
 
 .table__inactive {
-  background-color: #ff0000;
-  border-radius: 10px;
-  color: #f9f9f9;
+  color: #ff0000;
   font-family: "Poppins", sans-serif;
+  font-weight: 600;
   padding: 0.4rem;
 }
 

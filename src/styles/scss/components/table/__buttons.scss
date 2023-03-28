@@ -85,17 +85,15 @@
 }
 
 .table__active {
-  background-color: $green;
-  border-radius: 10px;
-  color: $off-white;
+  color: $green;
   font-family: $poppins;
+  font-weight: $fw-semibold;
   padding: 0.4rem;
 }
 
 .table__inactive {
-  background-color: $red;
-  border-radius: 10px;
-  color: $off-white;
+  color: $red;
   font-family: $poppins;
+  font-weight: $fw-semibold;
   padding: 0.4rem;
 }
